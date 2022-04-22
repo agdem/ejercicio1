@@ -1,0 +1,271 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+      width: 100%;
+      
+        
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
+}
+
+.landing::before {
+    content: "";
+    height: 45px;
+    width: 100%;
+    background: url("img/curva.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -45px;
+
+}
+
+.landing::after {
+    content: "";
+    height: 45px;
+    width: 100%;
+    background: url("img/curva.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -45px;
+    transform: rotate(180deg);
+}
+
+
+
+.intro {
+    padding-top: 7rem;
+}
+
+.intro h1 {
+    font-size: 2.7rem;
+}
+
+.intro p {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+
+
+.landing {
+    position: relative;
+    background-color: #e1e9ec;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    
+    }
+
+    .landing-intro {
+        display: flex;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+.demos {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.caja {
+    margin: 1rem;
+}
+
+.caja img {
+    border-radius: 3%;
+    transition: transform 0.2s linear,
+    box-shadow 0.2s linear;
+}
+
+.caja img:hover {
+   transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgb(197, 195, 195);
+
+}
+
+.inner {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.inner-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pages {
+    margin-top: 5rem;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.page-list {
+    width: 22rem;
+    margin: 1.5rem;
+    }
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.examples {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    background-color: rgb(225, 233, 236);
+    
+}
+
+.examples::before {
+    content: "";
+    height: 45px;
+    width: 100%;
+    background: url("img/curva.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -45px;
+}
+
+.examples::after {
+    content: "";
+    height: 45px;
+    width: 100%;
+    background: url("img/curva.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -45px;
+    transform: rotate(180deg);
+}
+
+
+.example-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    
+    margin: 0 auto;
+    }
+
+    h2 {
+        margin-top: 1rem;
+    }
+
+    .documentation {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    }
+
+.demos-docs {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}    
+
+
+.doc-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.docs {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 25rem;
+        margin: 1rem;
+    } 
+
+.btn-doc {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}    
+
+footer {
+    background-color: rgb(225, 233, 236); 
+    position: relative;
+}
+
+footer::before {
+    
+        content: "";
+        height: 45px;
+        width: 100%;
+        background: url("img/curva.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -45px;
+    
+}
+
+.container-foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+    
+}
+
+.caja-foot {
+    margin: 2rem;
+}
+
+.footer-credits {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+    padding-top: 4rem;
+    
+}
+
+.large {
+    margin: 0px auto;
+    max-width: 1435px;
+    
+}
+
+.short {
+    margin: 0px auto;
+    max-width: 1250px;
+}
+
+i {
+    color: grey;
+    margin: 2px;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .intro-img{size: 10px;}
+    .intro h1 {font-size: 1rem;}
+    .intro p {font-size: 0.7rem;}
+
+}
